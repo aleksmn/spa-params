@@ -1,0 +1,48 @@
+body {
+    --nav-width: 200px;
+    margin: 0 0 0 var(--nav-width);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    max-width: 1000px;
+}
+
+.nav {
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: var(--nav-width);
+    height: 100vh;
+    background: rgb(13, 147, 170);
+}
+
+.nav__link {
+    display: block;
+    padding: 12px 18px;
+    text-decoration: none;
+    color: #eeeeee;
+    font-weight: 500;
+}
+
+.nav__link:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.nav__link.active {
+    background: rgba(255, 255, 255, 0.174);
+}
+
+#app {
+    margin: 2em;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+a {
+    color: #009579;
+}
+
+
+/* .post {
+    font-family: monospace;
+} */
